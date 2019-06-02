@@ -8,7 +8,8 @@ export default {
     format: 'cjs'
   },
   external: [
-    'react'
+    'react',
+    'styled-components'
   ],
   plugins: [
     resolve(),

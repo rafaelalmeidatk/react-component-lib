@@ -5,6 +5,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
 
 var React = _interopDefault(require('react'));
+var styled = _interopDefault(require('styled-components'));
 
 function _objectWithoutPropertiesLoose(source, excluded) {
   if (source == null) return {};
@@ -42,11 +43,16 @@ function _objectWithoutProperties(source, excluded) {
   return target;
 }
 
+var StyledButton = styled.button.withConfig({
+  displayName: "Button__StyledButton",
+  componentId: "cy85s3-0"
+})(["border:2px solid #131313;padding:8px 10px;background:#fafafa;border-radius:3px;"]);
+
 var Button = function Button(_ref) {
   var children = _ref.children,
       props = _objectWithoutProperties(_ref, ["children"]);
 
-  return React.createElement("button", props, children);
+  return React.createElement(StyledButton, props, children);
 };
 
 exports.Button = Button;
