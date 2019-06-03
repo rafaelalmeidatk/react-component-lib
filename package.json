@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "main": "dist/bundle.js",
+  "module": "dist/bundle.es.js",
   "files": [
     "dist"
   ],
