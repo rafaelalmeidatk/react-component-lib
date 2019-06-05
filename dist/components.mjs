@@ -1,4 +1,4 @@
-import { black } from './colors.js';
+import { black } from './colors.mjs';
 import React from 'react';
 import styled from 'styled-components';
 

@@ -10,12 +10,13 @@ export default [
     },
     output: [
       {
-        dir: 'dist/cjs',
+        dir: 'dist',
         format: 'cjs'
       },
       {
-        dir: 'dist/es',
-        format: 'es'
+        dir: 'dist',
+        format: 'esm',
+        entryFileNames: '[name].mjs'
       }
     ],
     external: [
