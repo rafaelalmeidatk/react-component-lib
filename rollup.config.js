@@ -1,18 +1,20 @@
 import resolve from 'rollup-plugin-node-resolve';
 import babel from 'rollup-plugin-babel';
 
-import pkg from './package.json';
-
 export default [
   {
-    input: 'src/index.js',
+    input: {
+      index: 'src/index.js',
+      components: 'src/components/index.js',
+      colors: 'src/colors/index.js',
+    },
     output: [
       {
-        file: pkg.main,
+        dir: 'dist/cjs',
         format: 'cjs'
       },
       {
-        file: pkg.module,
+        dir: 'dist/es',
         format: 'es'
       }
     ],
