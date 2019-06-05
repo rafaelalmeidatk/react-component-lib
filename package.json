@@ -5,10 +5,10 @@
   "main": "dist/bundle.js",
   "module": "dist/bundle.es.js",
   "files": [
-    "dist"
+    "dist/*"
   ],
   "scripts": {
-    "build": "rollup -c"
+    "prepare": "rollup -c"
   },
   "dependencies": {
     "styled-components": "^4.2.1"

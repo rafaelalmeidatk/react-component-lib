@@ -1,4 +1,2 @@
-import * as colors from './colors';
-import * as components from './components'
-
-export { components, colors }
+export * from './colors';
+export * from './components';
