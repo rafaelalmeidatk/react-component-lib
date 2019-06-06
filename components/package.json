@@ -1,0 +1,6 @@
+{
+  "name": "@rafaelalmeidatk/react-component-lib/components",
+  "private": true,
+  "main": "./dist/react-component-lib-components.cjs.js",
+  "module": "./dist/react-component-lib-components.esm.js"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "@rafaelalmeidatk/react-component-lib/colors",
+  "private": true,
+  "main": "./dist/react-component-lib-colors.cjs.js",
+  "module": "./dist/react-component-lib-colors.esm.js"
+}
